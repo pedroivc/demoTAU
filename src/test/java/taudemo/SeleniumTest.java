@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.TestInstance.Lifecycle.PER_CLASS;
 
+//Just a comment
 @TestInstance(PER_CLASS)
 
 public class SeleniumTest {
@@ -18,6 +19,7 @@ public class SeleniumTest {
 
     @BeforeAll
     public void beforeAll() {
+
         driver = browserGetter.getChromeDriver();
     }
 
